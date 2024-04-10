@@ -5,7 +5,10 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #214a63;
+  display:flex;
+  justify-content:center;
+  align-items: center;
 }
 
 .topnav a {
@@ -15,6 +18,8 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  
+  
 }
 
 .topnav a:hover {
@@ -23,7 +28,7 @@ body {
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #4db1f0;
   color: white;
 }
 
@@ -42,4 +47,14 @@ body {
 }
 h1 {
     text-align:center;
+}
+img {
+  width: 400px;
+  height: auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
