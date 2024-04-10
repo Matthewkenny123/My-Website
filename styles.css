@@ -26,3 +26,20 @@ body {
   background-color: #04AA6D;
   color: white;
 }
+
+#footer{
+ position:fixed;
+ bottom:0;
+ left:0;
+}
+#wrap {
+  min-height: 100%;
+}
+#wrapper {
+  width: 600px;
+  margin: 80px auto;
+  text-align: center;
+}
+h1 {
+    text-align:center;
+}
