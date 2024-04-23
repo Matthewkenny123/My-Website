@@ -39,7 +39,6 @@ body {
 .topnav a.split {
 	float:right;
 	padding: 14px 16px;
-	
 }
 
 #footer{
@@ -59,10 +58,15 @@ body {
 h1 {
     text-align:center;
 }
+
+/*
 img {
   width: 400px;
   height: auto;
-}
+}*/
+
+
+/*For pic of bernie*/
 .center {
   display: block;
   margin-left: auto;
@@ -70,5 +74,15 @@ img {
   width: 40%;
 }
 
+/*for floating selfie*/
+.flier.self {
+  width: 400px;
+  height: auto;
+}
 
+/*for linked in logo*/
+.linkedin {
+	height:40px;
+	width: auto;
+}
 
