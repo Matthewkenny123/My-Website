@@ -15,7 +15,7 @@
 	<a href="vacation.html">Vacation Spots</a>
 	<a href="eightBall.html">Magic Eight Ball</a>
 	<a href="dog.html">My Dog</a>
-	<a href="https://www.linkedin.com/in/matthewkenny1/" target="_blank" class= "split"> Test</a>
+	<a href="https://www.linkedin.com/in/matthewkenny1/" target="_blank" class= "split"> <img src="LI-In-Bug.png" class="linkedin"></a>
 </div>
 
 <h1>Welcome to My Website</h1>
@@ -24,6 +24,7 @@
 .flier {
 	pointer-events: none;
 }
+
 
 .flier > * {
 /* Adjust animation duration to change the element’s speed */
@@ -77,8 +78,14 @@
 		transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
 	}
 }
+
+
+
 </style>
-<div class="flier"><img src="selfie.jpg" width="200"/></div>
+
+<div class="flier self">
+<img src="selfie.jpg" class="flier self" />
+</div>
 
 
 </body>
