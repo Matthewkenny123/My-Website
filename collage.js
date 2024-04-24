@@ -25,11 +25,9 @@ function placeImage(x,y)  {
 }
 
 document.addEventListener("click", function (event) {
-	event.preventDefault()
 	placeImage(event.pageX, event.pageY)
 })
 
-document.addEventListener("touchend", function (event) {
-	event.preventDefault()
+document.addEventListener("touchend", function (event) {	
 	placeImage(event.pageX, event.pageY)
 })
