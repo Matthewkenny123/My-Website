@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  background-image: url("background3.jpg");
+}
+
+.topnav {
+  overflow: hidden;
+  /*background-color: #214a63;*/
+  /*#0A1128*/
+  /*display:flex;*/
+  justify-content:left;
+  align-items: left;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+  
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4db1f0;
+  color: white;
+}
+
+/*test for favicon menu item*/
+.topnav a.split {
+	float:right;
+	padding: 14px 16px;
+}
+
+#footer{
+ position:fixed;
+ bottom:0;
+ left:0;
+ 
+}
+#wrap {
+  min-height: 100%;
+}
+#wrapper {
+  width: 600px;
+  margin: 80px auto;
+  text-align: center;
+}
+h1 {
+    text-align:center;
+}
+
+/*
+img {
+  width: 400px;
+  height: auto;
+}*/
+
+
+/*For pic of bernie*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+/*for floating selfie*/
+.flier.self {
+  width: 400px;
+  height: auto;
+}
+
+/*for linked in logo*/
+.linkedin {
+	height:40px;
+	width: auto;
+}
+/* for the about me page (looks good but gets rid of linked in image and cant click tabs)*/
+/*
+@keyframes fadein {
+	0%{ opacity: 0;}
+	100%{ opacity: 100;}
+}
+*/
+
+.collage{
+	position: absolute;
+}
+
+/*
+img:hover {z-index: 1;
+}
+*/

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Matthew Kenny">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Magic Eight Ball</title>
+	<link rel="icon" href="titlePic.jfif" type="image/gif">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="aboutMe.html">About Me</a>
+  <a href="vacation.html">Vacation Spots</a>
+  <a class="active" href="#eight">Magic Eight Ball</a>
+  <a href="dog.html">My Dog</a>
+  <a href="https://www.linkedin.com/in/matthewkenny1/" target="_blank" class= "split"> <img src="LI-In-Bug.png" class="linkedin"></a>
+</div>
+
+<h1>Magic Eight Ball</h1>
+
+<script>
+
+function GenerateAnswer() {
+  responses = [
+    'It is certain',
+    'Without a doubt',
+    'Most likely',
+    'Yes',
+    'Reply hazy try again',
+    'Ask again later',
+    'My reply is no',
+    'No',
+    'Very doubtful',
+	'No shot Jabroni',
+	'What kind of question is that?',
+	'Hell ya'
+  ];
+  response = responses[Math.floor(Math.random() * responses.length)];
+  document.getElementById('outputDiv').innerHTML = response;
+}
+</script>
+	<div id="wrapper">
+
+	<p> What do you want to know about the future? </p>
+
+	<p>
+		<input id="questionArea" type="text" placeholder="Enter a question"></input>
+	</p>
+
+	<p>
+		<button id="answerButton" onclick="GenerateAnswer()"> Make a prediction </button>
+	</p>
+
+	<div id="outputDiv"> </div>
+
+</div>
+
+</body>
+
+
+	<!-- Footer -->
+	<div id="footer">
+	<p>Author: Matthew Kenny</p>
+	<p><a href="mailto:matthewkenny@live.com">matthewkenny@live.com</a></p>
+	</div>
+</html>
