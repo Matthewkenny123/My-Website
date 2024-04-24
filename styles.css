@@ -86,21 +86,18 @@ img {
 	width: auto;
 }
 /* for the about me page (looks good but gets rid of linked in image and cant click tabs)*/
-
+/*
 @keyframes fadein {
 	0%{ opacity: 0;}
 	100%{ opacity: 100;}
 }
+*/
 
-img {
+.collage{
 	position: absolute;
-	top: 500px;
-	left: 400px;
-	transform:translate(-50%, -50%) scale(0.5);
-	animation: fadein 0.5;
 }
+
 /*
 img:hover {z-index: 1;
 }
 */
-
