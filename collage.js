@@ -1,5 +1,5 @@
 const images = [
-	"collage1.webp", "collage2.jpg", "collage3.jpg", "collage4.jpg", "collage5.jpg", "collage6.jpg"
+	"collage1.webp", "collage2.jpg", "collage3.jpg", "collage4.jpg", "collage5.jpg", "collage6.jpg", "collage7.jpg", "collage8.webp"
 ]
 
 let i = 0
@@ -34,5 +34,7 @@ document.addEventListener("touchend", function (event) {
 	event.preventDefault()
 	placeImage(event.pageX, event.pageY)
 })
+
+
 
 
